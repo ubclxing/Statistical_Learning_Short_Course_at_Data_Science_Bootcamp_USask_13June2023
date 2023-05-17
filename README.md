@@ -1,1 +1,2 @@
-# Data_Science_Bootcamp_USask_13June2023
+# Statistical Learning Short Course 
+University of Data Science Bootcamp (13 June 2023)
