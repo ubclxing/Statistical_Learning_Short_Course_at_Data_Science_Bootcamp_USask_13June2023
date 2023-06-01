@@ -5,7 +5,7 @@
 3. Split the data into training and testing dataset (**NOTE:** 80% for training and 20% for testing)
    * **NOTE:** Make sure to use `set.seed(2023)` to ensure consistent results
 4. Define a 10-fold cross validation control parameter using `trainControl()`
-5. Use `train()` to build cross validation elastic net model 
+5. Use `train()` to build cross validation elastic net model
   * `Grad.Rate` is the response
   * All the remaining variables are predictors
 6. Extract the α and λ that corresponds to the smallest RMSE
