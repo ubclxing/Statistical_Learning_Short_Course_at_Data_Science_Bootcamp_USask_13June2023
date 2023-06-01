@@ -10,18 +10,18 @@ The bootcamp will be led by Dr. Li Xing, Assistant Professor in the Department o
 ### Session 1: 9:30am - 11:30am
 - 9:30am-10:40am: Lecture on introduction to statistical machine learning
 - 10:40am-11:30am: R/Rstudio installation + Introduction + Data Management
--- TA: Lina
--- Tutors: Kyle and Jing
+  - TA: Lina
+  - Tutors: Kyle and Jing
 ### Session 2: 1:00pm - 2:30pm
 - 1:00pm-2:00pm: Linear Regression and Logistic Regression
 - 2:00pm-2:30pm: R on lm and glm
--- TA: Kyle
--- Tutors: Lina and Jing
+  - TA: Kyle
+  - Tutors: Lina and Jing
 ### Session 3: 3:00pm - 4:30pm
 - 3:00pm-3:50pm: Lasso, Ridge, and Elastic Net
 - 3:50pm-4:30pm: glmnet
--- TA: Kyle
--- Tutors: Lina and Jing
+  - TA: Kyle
+  - Tutors: Lina and Jing
 
 **Please note that a laptop is required for the hands-on sessions.**
 
