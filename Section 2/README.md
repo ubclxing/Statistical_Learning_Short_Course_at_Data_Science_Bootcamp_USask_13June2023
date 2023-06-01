@@ -1,5 +1,5 @@
-# Session 2: R on lm and glm
-This section covers the concepts of using R for linear regression (`lm`) and generalized linear regression (`glm`). The teaching assistant (TA) for this section is Kyle, and the tutors are Lina and Jing.
+# Session 2: Linear and Logistic Regression in R
+This section covers the concepts of how to utilize R to build linear and logistic regression models. The teaching assistant (TA) for this section is Kyle, and the tutors are Lina and Jing.
 
 ## Overview
 We will perform the following tasks on R:
@@ -19,6 +19,6 @@ We will perform the following tasks on R:
  - Evaluating the model accuracy.
 
 ## Schedule
-- 2:00pm-2:10pm: Kyle will share his experience and insights on the topic.
-- 2:10pm-2:25pm: Engage in hands-on practice and complete easy tasks to reinforce your understanding.
-- 2:25pm-2:30pm: The solutions will be released, and Lina and Jing will be available to assist and address any errors or questions you may have.
+- 2:00pm-2:15pm: Kyle will walk through the R code in the html file and explain the sections for linear and logistic regression.
+- 2:15pm-2:30pm: Students will engage in hands-on practice by completing simple questions to reinforce students' understanding. The TA and tutors will be availabe to assist and answer any questions.
+- 2:30pm: The solutions to the practice questions will be released.
