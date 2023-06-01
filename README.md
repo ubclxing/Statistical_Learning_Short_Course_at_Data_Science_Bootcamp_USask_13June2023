@@ -23,6 +23,6 @@ The bootcamp will be led by Dr. Li Xing, Assistant Professor in the Department o
   - TA: Kyle
   - Tutors: Lina and Jing
 
-**Please note that a laptop is required for the hands-on sessions.**
+**Please note that a laptop is required for the hands-on sessions. All materials will be provided through GitHub links prior to the start of each session.**
 
 We hope this bootcamp will provide you with valuable insights and practical skills in statistical machine learning. If you have any questions or need assistance during the bootcamp, feel free to reach out to the TA, tutors. We look forward to seeing you there!
