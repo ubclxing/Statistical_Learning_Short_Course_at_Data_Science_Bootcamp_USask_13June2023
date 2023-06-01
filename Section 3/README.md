@@ -1,5 +1,5 @@
 # Session 3: Lasso, Ridge and Elastic Net  
-In this section, we will focus on ridge regression, lasso regression, and elastic net regression. These are advanced regression techniques that can effectively handle multicollinearity and perform variable selection. 
+In this section, we will focus on ridge regression, lasso regression, and elastic net. These are advanced regression techniques that can effectively handle multicollinearity and perform variable selection. 
 
 ## Overview
 We will work with the **Auto** dataset, which contains information about various car models.
@@ -25,6 +25,6 @@ We will work with the **Auto** dataset, which contains information about various
 - Evaluate model accuracy using MSE
 
 ## Schedule
-- 3:50pm-4:05pm: Kyle will share his insights and experiences on the topic.
-- 4:05pm-4:25pm: Take some time to practice what you've learned and complete some simple tasks on your own.
-- 4:25pm-4:30pm: We will release the solutions and address any errors or questions with the assistance of Lina and Jing.
+- 3:50pm-4:10pm: Kyle will walk through the R code in the html file and explain the sections for ridge regression, lasso regression, and elastic net.
+- 4:10pm-4:30pm: Students will engage in hands-on practice by completing simple questions to reinforce students' understanding. The TA and tutors will be availabe to assist and answer any questions
+- 4:30pm: The solutions to the practice questions will be released.
