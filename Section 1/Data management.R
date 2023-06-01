@@ -9,8 +9,8 @@ library(ISLR2)
 
 data(Auto)
 
-
-######## library(readr) # for data import
+##################################################################################
+# library(readr) # for data import
 
 file1<-write_file(x="a,b,c\n1,2,3\n4,5,NA",path="file1.csv")
 file2<-write_file(x="a;b;c\n1;2;3\n4;5;NA",path="file2.csv")
