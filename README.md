@@ -1,8 +1,6 @@
 # Statistical Learning Short Course 
 Welcome to the Statistical Machine Learning Bootcamp! This bootcamp is designed to provide you with learning opportunities on machine learning and the popular statistical software R. Using R and Rstudio, this bootcamp will focus on data management, reproducibility, visualization, and statistical learning methods.
 
-**Please note that a laptop is required for the hands-on sessions. All materials will be provided through GitHub links prior to the start of each session. Additionally, please feel free to install R and Rstudio prior to this workshop. Instructions to do so can be found within the Session 1 folder.**
-
 ## Date and Location
 - Date: June 13th, 2023
 - Location: HLTH B450 (Health Science Building, B Wing)
@@ -25,5 +23,7 @@ The bootcamp will be led by Dr. Li Xing, Assistant Professor in the Department o
 - 3:50pm-4:30pm: Ridge, Lasso, and Elastic Net R Tutorial
   - TA: Kyle
   - Tutors: Lina and Jing
+
+**Please note that a laptop is required for the hands-on sessions. All materials will be provided through GitHub links prior to the start of each session. Additionally, please feel free to install R and Rstudio prior to this workshop. Instructions to do so can be found within the Session 1 folder.**
 
 We hope this bootcamp will provide you with valuable insights and practical skills in statistical machine learning. If you have any questions or need assistance during the bootcamp, feel free to reach out to the TA and/or tutors. We look forward to seeing you there!
