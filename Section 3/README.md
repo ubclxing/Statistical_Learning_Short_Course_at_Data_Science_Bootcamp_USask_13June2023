@@ -26,5 +26,5 @@ We will use the `Auto` dataset in all 3 methods.
 
 ## Schedule
 - 3:50pm-4:10pm: Kyle will walk through the R code in the html file and explain the sections for ridge regression, lasso regression, and elastic net.
-- 4:10pm-4:30pm: Students will engage in hands-on practice by completing simple questions to reinforce students' understanding. The TA and tutors will be availabe to assist and answer any questions
+- 4:10pm-4:30pm: Students will engage in hands-on practice by completing simple questions to reinforce their understanding. The TA and tutors will be availabe to assist and answer any questions
 - 4:30pm: The solutions to the practice questions will be released.
