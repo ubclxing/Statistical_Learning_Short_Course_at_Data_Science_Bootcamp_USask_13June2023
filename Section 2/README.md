@@ -3,7 +3,7 @@ This section covers the concepts of how to utilize R to build linear and logisti
 
 ## Overview
 We will perform the following tasks on R:
-### Working with the "Auto" dataset:
+### Linear Regression
 - Loading the data.
 - Exploring the structure and dimensions of the data.
 - Checking for missing values.
@@ -11,9 +11,9 @@ We will perform the following tasks on R:
 - Building a linear regression model.
 - Evaluating the model accuracy.
 
-### Working with the "Default" dataset:
+### Logistic Regression
  - Loading the data.
- - Recoding the outcome variable.
+ - Recoding the outcome variable to binary.
  - Splitting the data into training and testing sets.
  - Building a logistic regression model.
  - Evaluating the model accuracy.
