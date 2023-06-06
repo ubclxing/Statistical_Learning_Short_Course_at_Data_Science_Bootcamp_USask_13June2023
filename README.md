@@ -1,5 +1,5 @@
 # Statistical Learning Short Course 
-Welcome to the Statistical Machine Learning Bootcamp! This bootcamp is designed to provide you with learning opportunities on machine learning and statistical software, R, with a focus on data management, reproducibility, visualization, and statistical learning methods.
+Welcome to the Statistical Machine Learning Bootcamp! This bootcamp is designed to provide you with learning opportunities on machine learning and the popular statistical software R. Using R and Rstudio, this bootcamp will focus on data management, reproducibility, visualization, and statistical learning methods.
 ## Date and Location
 - Date: June 13th, 2023
 - Location: HLTH B450 (Health Science Building, B Wing)
