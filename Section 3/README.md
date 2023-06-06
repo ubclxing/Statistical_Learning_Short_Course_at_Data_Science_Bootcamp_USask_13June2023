@@ -2,10 +2,10 @@
 In this section, we will focus on ridge regression, lasso regression, and elastic net. These are advanced regression techniques that can effectively handle multicollinearity and perform variable selection. 
 
 ## Overview
-We will work with the **Auto** dataset, which contains information about various car models.
+We will use the `Auto` dataset in all 3 methods.
 
 ### Data Preparation and Exploration
-- Load the Auto dataset
+- Load the 'Auto' dataset
 - Explore the structure of the data
 - Check for missing values
 ### Formatting the Data
