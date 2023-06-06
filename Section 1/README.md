@@ -1,5 +1,5 @@
 # Session 1: R/RStudio Installation + Introduction + Data Management
-This session covers the initial steps to get started with R and RStudio, introduces the basics of R programming, and focuses on data management techniques. It is led by Lina as the Teaching Assistant, with support from tutors Kyle and Jing.
+This session covers the initial steps to get started with R and RStudio, introduces the basics of R programming, and focuses on data management techniques. It is led by Lina as the Teaching Assistant, with support from Kyle and Jing as tutors.
 
 ## Overview
 In this section, we will cover the following topics:
