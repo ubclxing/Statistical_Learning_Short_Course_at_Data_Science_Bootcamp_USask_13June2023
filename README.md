@@ -9,13 +9,14 @@ Welcome to the Statistical Machine Learning Bootcamp! This bootcamp is designed 
 The bootcamp will be led by Dr. Li Xing, Assistant Professor in the Department of Mathematics and Statistics at the University of Saskatchewan. Dr. Xing has extensive experience in statistical machine learning and has worked on developing novel statistical tools for complex data, particularly in genomics and experimental design for observational studies and clinical trials. You can find more information about Dr. Xing on her website: https://ubclxing.github.io/.
 ## Schedule
 ### Session 1: 9:30am - 11:30am
-- 9:30am-10:40am: Lecture on Introduction to Statistical Machine Learning by Dr. Xing
-- 10:40am-11:30am: R/Rstudio installation + Introduction + Data Management
+- 9:30am-11:00am: Lecture on Introduction to Statistical Machine Learning, Linear Regression and Logistic Regression by Dr. Xing
+- 11:10am-11:30am: R/Rstudio installation + Introduction + Data Management by Lina (TA)
+### Session 2: 1:00pm - 2:30pm
+- 1:00pm-1:30pm: Linear and Logistic Regression R Tutorial by Kyle (TA)
+- 1:30pm-2:00pm: Practice on R/Rstudio installation + Introduction + Data Management 
   - TA: Lina
   - Tutors: Kyle and Jing
-### Session 2: 1:00pm - 2:30pm
-- 1:00pm-2:00pm: Linear Regression and Logistic Regression Lecture by Dr. Xing
-- 2:00pm-2:30pm: Linear and Logistic Regression R Tutorial
+- 2:00pm-2:30pm: Practice on Linear and Logistic Regression with R
   - TA: Kyle
   - Tutors: Lina and Jing
 ### Session 3: 3:00pm - 4:30pm
