@@ -10,7 +10,7 @@ The bootcamp will be led by Dr. Li Xing, Assistant Professor in the Department o
 ## Schedule
 ### Session 1: 9:30am - 11:30am
 - 9:30am-11:00am: Lecture on Introduction to Statistical Machine Learning, Linear Regression and Logistic Regression by Dr. Xing
-- 11:10am-11:30am: R/Rstudio installation + Introduction + Data Management by Lina (TA)
+- 11:10am-11:30am: R/Rstudio installation + Introduction + Data Management R Tutorial by Lina (TA)
 ### Session 2: 1:00pm - 2:30pm
 - 1:00pm-1:30pm: Linear and Logistic Regression R Tutorial by Kyle (TA)
 - 1:30pm-2:00pm: Practice on R/Rstudio installation + Introduction + Data Management 
