@@ -19,6 +19,6 @@ We will perform the following tasks on R:
  - Evaluating the model accuracy.
 
 ## Schedule
-- 2:00pm-2:15pm: Kyle will walk through the R code in the html file and explain the sections for linear and logistic regression.
-- 2:15pm-2:30pm: Students will engage in hands-on practice by completing simple questions to reinforce their understanding. The TA and tutors will be availabe to assist and answer any questions.
+- 1:00pm-1:30pm: Kyle will walk through the R code in the html file and explain the sections for linear and logistic regression.
+- 2:00pm-2:30pm: Students will engage in hands-on practice by completing simple questions to reinforce their understanding. The TA and tutors will be availabe to assist and answer any questions.
 - 2:30pm: The solutions to the practice questions will be released.
