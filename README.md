@@ -21,7 +21,8 @@ The bootcamp will be led by Dr. Li Xing, Assistant Professor in the Department o
   - Tutors: Lina and Jing
 ### Session 3: 3:00pm - 4:30pm
 - 3:00pm-3:50pm: Ridge, Lasso, and Elastic Net Lecture by Dr. Xing
-- 3:50pm-4:30pm: Ridge, Lasso, and Elastic Net R Tutorial
+- 3:50pm-4:10pm: Ridge, Lasso, and Elastic Net R Tutorial by Kyle (TA)
+- 4:10pm-4:30pm: Practice on Ridge, Lasso, and Elastic Net with R
   - TA: Kyle
   - Tutors: Lina and Jing
 
