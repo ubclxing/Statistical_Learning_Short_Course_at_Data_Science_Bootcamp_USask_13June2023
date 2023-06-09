@@ -10,6 +10,9 @@ In this section, we will cover the following topics:
 
 - **Data Management**: You will learn essential techniques for managing and manipulating data in R. Topics covered include data import/export, data cleaning, data transformation, and basic data exploration.
 
+## Material
+https://lim648.github.io/session1/Data-management.html
+
 ## Schedule
 - 11:10am-11:30am: Lina will guide you through the process of downloading R and R Studio, as well as demonstrate basic data management techniques.
 - 1:30pm-2:00pm: Take some time to install R and R Studio on your own laptop if you haven't already, and try your hand at performing some data management tasks to get comfortable with the tools.
