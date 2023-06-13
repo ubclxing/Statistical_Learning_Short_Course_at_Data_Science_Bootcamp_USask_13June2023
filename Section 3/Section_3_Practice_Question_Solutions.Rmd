@@ -1,0 +1,89 @@
+---
+title: "Section 3 Practice Question Solutions"
+date: "June 13, 2023. (4:10pm-4:30pm)"
+author: "TA: Kyle Gardiner<br>Tutors: Lina Li and  Jing Wang"
+output: html_document
+---
+
+
+#### $(1)$ Loading in `College` dataset form the `ISLR2` package
+```{r,message=FALSE}
+library(ISLR2)
+library(glmnet)
+library(caret) 
+data(College)
+?College
+```
+\
+
+
+
+
+
+#### $(2)$ Use `model.matrix()` to create design matrix where `Grad.Rate` is the outcome
+```{r}
+xx <- model.matrix(Grad.Rate ~., College) 
+yy <- College$Grad.Rate
+```
+\
+
+#### $(3)$ Splitting the data (NOTE: make sure to use 'set.seed(2023)')
+```{r}
+set.seed(2023)
+id<-sample(nrow(Auto),round(nrow(Auto)*0.80)) 
+xx.train<-xx[id,]
+xx.test<-xx[-id,]
+yy.train<-yy[id]
+yy.test<-yy[-id]
+```
+\
+
+#### $(4)$ Defining 10 fold cross validation using `trainControl()`
+```{r}
+cv_10 = trainControl(method = "cv", number = 10)
+```
+\
+
+
+
+#### $(5)$ Using `train()` to build cross validation elastic net model
+```{r}
+elastic.net.cv = train(
+  Grad.Rate ~.,       
+  data = College[id,], 
+  method = "glmnet",  
+  trControl = cv_10) 
+
+elastic.net.cv
+```
+\
+
+#### $(6)$ Extracting best $\alpha$ and $\lambda$ from cross validation elastic net model
+```{r}
+myid <- order(elastic.net.cv$results$RMSE)[1] 
+
+mybest.alpha <- elastic.net.cv$results$alpha[myid]
+mybest.lambda <- elastic.net.cv$results$lambda[myid] 
+```
+\
+
+#### $(7)$ Using the best $\alpha$ and $\lambda$ to build non-cv elastic net
+```{r}
+elastic.net.model<- glmnet(xx.train, yy.train, alpha = mybest.alpha, lambda = mybest.lambda)
+
+coef(elastic.net.model)
+```
+\
+
+#### $(8)$ Predicting values with `predict()`
+```{r}
+elastic.net.pred<-predict(elastic.net.model, s=mybest.lambda, newx=xx.test)
+```
+\
+
+
+#### $(9)$ Calculating MSE
+```{r}
+mean((elastic.net.pred-yy.test)^2)
+```
+
