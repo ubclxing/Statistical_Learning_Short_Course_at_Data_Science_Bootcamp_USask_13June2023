@@ -92,14 +92,14 @@ mean((ridge.pred-yy.test)^2)
 
 ########### Model Building #################
 
-lasso.mod <- glmnet(xx.train, yy.train, alpha = 0, lambda = grid)
+lasso.mod <- glmnet(xx.train, yy.train, alpha = 1, lambda = grid)
 
 plot(lasso.mod, label = T)
 
 
 ############ Cross Validation ############
 
-lasso.cv <- cv.glmnet(xx.train, yy.train, alpha = 0, lambda = grid, nfolds=10)
+lasso.cv <- cv.glmnet(xx.train, yy.train, alpha = 1, lambda = grid, nfolds=10)
 
 plot(lasso.cv)
 
