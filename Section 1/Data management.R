@@ -33,7 +33,7 @@ read_csv2("file2.csv")
 
 #Tab Delimited Files
 read_tsv("file3.tsv")
-or
+#or
 read_table("file3.tsv")
 
 
