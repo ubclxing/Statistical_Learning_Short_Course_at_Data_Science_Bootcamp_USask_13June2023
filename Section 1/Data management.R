@@ -15,9 +15,7 @@ rm(list=ls(all=TRUE))
 ###################################################################################
 ######## install.packages("tidyverse")########
 library(tidyverse)
-library(ISLR2)
 
-data(Auto)
 
 
 ######## library(readr) # for data import
@@ -55,94 +53,104 @@ df_wide<-spread(df_long,year,point)
 ##################################################################################
 #library(dplyr) for data manipulation
 #loads All function from dply
+library(dplyr)
+library(ISLR2)
 
-#loads All function from dply
+data(Auto)
 
-#loads ONLY the filter function from dplyr
-#dplyr::filter()
+View(Auto)
+
+str(Auto)
 
 #select columns
-df1<-select(auto,mpg,year);df1
+df1<-select(Auto,mpg,year);df1
 
 
 #re-ordering the columns
-df2<-select(auto,year,mpg,name,everything());df2
+df2<-select(Auto,year,mpg,name,everything());df2
 
 
 #change the column name, $rename()$ function
-df3<-rename(auto,YEAR = year);df3
+df3<-rename(Auto,YEAR = year);df3
 
 
 #filter the rows, filter()function
 #get a new data frame in which the year is 70, and the origin is 1.
 
-df4<-filter(auto,year==70 & origin == 1);df4
+df4<-filter(Auto,year==70 & origin == 1);df4
 
 
 # find the mpg where the value is between 14 and 18
 
-df5<-filter(auto,mpg <=18 & mpg >=14);df5
+df5<-filter(Auto,mpg <=18 & mpg >=14);df5
 
 #create new columns, mutate()function can be used to create variables based on 
 #existing variables from the dataset.
 
-df6<-mutate(auto,Ratio=acceleration/cylinders);df6
+df6<-mutate(Auto,Ratio=acceleration/cylinders);df6
 
 # also can create multiple columns at once, separating each new variable with a comma.
 
-df7<-mutate(auto,Ratio=acceleration/cylinders,Ratio2=acceleration*0.2);df7
+df7<-mutate(Auto,Ratio=acceleration/cylinders,Ratio2=acceleration*0.2);df7
 
 # we can also use other functions inside the mutate() to create new variables.
 
-df8<-mutate(auto,m=mean(year));df8
+df8<-mutate(Auto,m=mean(year));df8
 
 
 #####################################################################################
 # %>%: A pipes basically just pushes the data from whatever is before it to the 
 #function that is after it.
 
-#number of rows of auto
-auto %>% nrow() 
+#number of rows of Auto
+Auto %>% nrow() 
 
 
 # same result as used for df8
-auto %>% 
+Auto %>% 
   mutate(m=mean(year))
 
 # summarize() collapses all rows and returns a one-row summary
-auto %>%
+Auto %>%
   summarise(year_ave=mean(year),year_median=median(year),horsepower_ave=mean(horsepower))
 
 # same result as used for df4
-auto %>%
+Auto %>%
   filter(year==70 & origin == 1)
 
 # same result as used for df1
-auto %>%
+Auto %>%
   select(mpg,year)
 
 #group_by(): Takes existing data and groups specific variables together for future operations.
 # First, we group all the cars by year and find the average mpg for each group.
-
-auto %>%
+ Auto %>%
   group_by(year) %>%
-  summarise(mean(mpg))%>%
+  mutate(m=mean(mpg))%>%
   ungroup()
 
 
-# creating/saving the object named auto1
-auto1<-
-  auto %>%
-  group_by(cylinders) %>%
-  mutate(ave=mean(horsepower)) %>%
-  ungroup()
+# creating/saving the object named Auto1
+
+Auto1<-
+  Auto %>%
+  group_by(year) %>%
+  mutate(m=mean(mpg))
+
+
+  
+Auto2<-
+  Auto1 %>%
+  mutate(x=mean(weight))
+
+mean(Auto$weight)
 
 
 # arrange(): Allows you to arrange values within a variable in ascending or descending 
 # order (if that applies to your values).
 
 # arrange mpg by numerical order(lowest to highest)
-auto %>% arrange(mpg)
+Auto %>% arrange(mpg)
 
 # arrange year in descending numerical order
-auto %>% arrange(desc(year))
+Auto %>% arrange(desc(year))
