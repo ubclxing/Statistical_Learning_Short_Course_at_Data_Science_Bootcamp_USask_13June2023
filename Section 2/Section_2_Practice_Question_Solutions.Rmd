@@ -1,0 +1,43 @@
+---
+title: "Section 2 Practice Question Solutions"
+date: "June 13, 2023. (2:00pm-2:30pm)"
+author: "TA: Kyle Gardiner<br>Tutors: Lina Li and  Jing Wang"
+output: pdf_document
+---
+
+
+#### $(1)$ Load in the `College` dataset from the `ISLR2` package
+```{r}
+library(ISLR2)
+data(College)
+?College
+```
+\
+
+#### $(2)$ Splitting the data (NOTE: make sure to use 'set.seed(2023)')
+```{r}
+set.seed(2023) 
+id<-sample(nrow(College),round(nrow(College)*0.80)) 
+college.train.data<-College[id,] 
+college.test.data<-College[-id,]
+```
+\
+
+#### $(3)$ Building a linear regression model using `lm()` (`Grad.Rate` as outcome)
+```{r}
+linear.mod<-lm(Grad.Rate~ ., data=college.train.data)
+
+summary(linear.mod)
+```
+\
+
+#### $(4)$ Using `predict()` to get predicted values
+```{r}
+pred.values<-predict(linear.mod, college.test.data)
+```
+\
+
+#### $(5)$ Calculating MSE
+```{r}
+mean((college.test.data$Grad.Rate-pred.values)^2)
+```
